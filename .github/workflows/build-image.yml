@@ -23,7 +23,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: hug 
+          ref: main 
 
       - name: Convert to lowercase
         id: vars
