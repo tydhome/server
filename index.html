@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Hole Explorer - Google Style</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --google-blue: #1a73e8;
+            --text-primary: #202124;
+            --text-secondary: #5f6368;
+            --bg-body: #f8f9fa;
+            --bg-white: #ffffff;
+            --card-shadow: 0 1px 2px 0 rgba(60,64,67,0.30), 0 1px 3px 1px rgba(60,64,67,0.15);
+        }
+        body { font-family: 'Roboto', sans-serif; background-color: var(--bg-body); color: var(--text-primary); margin: 0; }
+        header { background: var(--bg-white); padding: 16px 24px; box-shadow: 0 1px 2px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+        .container { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+        .hero { text-align: center; padding: 60px 0; }
+        h1 { font-size: 2.5rem; font-weight: 500; }
+        .hero-subtitle { font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 32px; }
+        .card { background: var(--bg-white); border-radius: 8px; padding: 24px; box-shadow: var(--card-shadow); margin-bottom: 24px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+        .material-icons { vertical-align: middle; color: var(--google-blue); }
+        footer { padding: 32px 0; text-align: center; border-top: 1px solid #e0e0e0; color: var(--text-secondary); font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div style="display: flex; align-items: center; font-size: 1.4rem; color: var(--text-secondary);">
+                <span class="material-icons" style="margin-right: 8px;">rocket_launch</span>
+                <span style="color: var(--text-primary); font-weight: 500;">Space</span>&nbsp;Insights
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <h1>Black Holes: The Universal Abyss</h1>
+            <p class="hero-subtitle">Regions of spacetime where gravity is so strong that nothing, not even light, can escape.</p>
+        </section>
+
+        <section>
+            <h2>Types of Black Holes</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <span class="material-icons" style="font-size: 36px;">star</span>
+                    <h3>Stellar Black Holes</h3>
+                    <p>Formed by the collapse of individual massive stars. They are usually 5 to 20 times the mass of our Sun.</p>
+                </div>
+                <div class="card">
+                    <span class="material-icons" style="font-size: 36px;">adjust</span>
+                    <h3>Supermassive Black Holes</h3>
+                    <p>Found at the center of most galaxies, including the Milky Way. They can be billions of times heavier than the Sun.</p>
+                </div>
+                <div class="card">
+                    <span class="material-icons" style="font-size: 36px;">scatter_plot</span>
+                    <h3>Intermediate Black Holes</h3>
+                    <p>The elusive "missing link" between stellar and supermassive types. Recent research confirms their existence.</p>
+                </div>
+            </div>
+        </section>
+
+        
+
+[Image of anatomy of a black hole]
+
+        <section style="margin-top: 48px;">
+            <h2>Key Features</h2>
+            <div class="card">
+                <h3>Event Horizon</h3>
+                <p>The "point of no return." Beyond this boundary, the escape velocity required exceeds the speed of light.</p>
+                <h3>Singularity</h3>
+                <p>The core of a black hole where matter is crushed into a point of infinite density, and the laws of physics as we know them break down.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Space Insights. Designed in Material Style. Data source: NASA.</p>
+    </footer>
+</body>
+</html>
