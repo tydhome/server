@@ -1,7 +1,7 @@
 {
-  "name": "node-ws",
+  "name": "Server",
   "version": "1.0.0",
-  "description": "Node.js Server",
+  "description": "Server",
   "main": "index.js",
   "author": "eooce",
   "license": "GPL-3.0",
@@ -10,10 +10,9 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "ws": "^8.14.2",
-    "axios": "^1.12.2"
+    "ws": "^8.14.2"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   }
 }
